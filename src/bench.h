@@ -36,12 +36,12 @@ typedef unsigned char bool_t;
 #include        <sys/un.h>
 #include        <sys/resource.h>
 #define PORTMAP
-#include	<rpc/rpc.h>
+//#include	<rpc/rpc.h>
 #endif
 #ifdef HAVE_pmap_clnt_h
 #include	<rpc/pmap_clnt.h>
 #endif
-#include	<rpc/types.h>
+//#include	<rpc/types.h>
 #ifdef HAVE_pmap_clnt_h
 #include	<rpc/pmap_clnt.h>
 #endif
@@ -78,7 +78,7 @@ typedef long long int64;
 #endif /* HAVE_int64 */
 
 #ifndef HAVE_socklen_t
-typedef int socklen_t;
+//typedef int socklen_t;
 #endif
 
 #ifndef HAVE_off64_t
